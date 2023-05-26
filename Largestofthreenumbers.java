@@ -16,5 +16,6 @@ public class LrgestOfThree {
  max = c;
  }
  System.out.println("The largest of three numbers is:" +max);
+ // int max = Math.max(c,Math.max(a,b)); //Istead of IF we can approch with Math fun too.
  }
 } 
