@@ -1,0 +1,20 @@
+ // Time complexity: O(n^2)
+class HelloWorld {
+   
+    public static void main(String[] args) {
+        int distinct_array[] ={3,5,-4,8,11,1,-1,6};
+         int K;
+        for(int i=0;i<distinct_array.length;i++){
+            
+          for(int j=i+1;j<distinct_array.length;j++){
+              if(distinct_array[i]+ distinct_array[j] == 10){
+                  
+                  
+                 System.out.println("i value is :"+distinct_array[i]+ ",and J value is :"+distinct_array[j]);  
+              }
+            
+            }
+        }
+        
+    }
+}
